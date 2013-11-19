@@ -1,11 +1,13 @@
-var getElementsByClassName=function(c){
-	var ele=new Array();
-	var tags=document.getElementsByTagName('*');
-	for(var i=0;i<tags.length;i++){
-		var temp=tags[i].className.split(" ");
-		for(j in temp)
-			if(temp[j]===c)
-				sth[sth.length]=tags[i];
-	}
-	return ele;
+function getElementsByClassName(classname){
+        var result = new Array();
+        var all = document.getElementsByTagName("*");
+        for(var i=0;i<all.length;i++){
+                var temp = all[i].className.split(" ");
+                for(var j=0; j<temp.length; j++){
+                         if(temp[j] == classname){
+				result.push(all[i]);
+			}
+		}
+        }
+        return result;
 }
