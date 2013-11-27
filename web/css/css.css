@@ -1,0 +1,427 @@
+body{
+	width: 1335px;
+	height: 1420px;
+	margin: 0;
+	background: url("../photo/back.png");
+	color:white;
+	font-family: arial;
+	overflow: hidden;
+}
+.dazhezhao{
+	background: black;
+	opacity: 0.2;
+	z-index: -2;
+	width: 982px;
+	height: 1340px;
+	position: absolute;
+	margin-left: 177px;
+}
+.bbody{
+	
+	width: 982px;
+	height: 1384px;
+	margin: 0 auto;
+}
+.zhezhao1{
+	position: absolute;
+	height: 35px;
+	width: 1335px;
+	background: black;
+	z-index: -1;
+	opacity: 0.5;
+}
+.head{
+	position: absolute;
+	height: 35px;
+	width: 1400px;
+	background: url("../photo/zhezhao.png");
+	
+}
+
+.separators{
+	height: 35px;
+	width: 982px;
+	line-height: 35px;
+}
+
+
+.logo{
+	float: right;
+	margin-top: 10px;
+}	
+.top{
+	position: relative;
+	height: 708px;
+	width: 982px
+}
+.middle1{
+	position: relative;
+	height: 638px;
+	width: 641px;
+	float:left;
+	
+}
+#learnbutton{
+	float: bottom;
+	height: 26px;
+	width: 100px;
+	background: rgb(37,120,182);
+	border: none;
+	border-radius: 6px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+.middle2{
+	position: relative;
+	width: 341px;
+	height: 638px;
+	float: left;
+	
+}
+.bottom {
+	position: relative;
+	height: 38px;
+	width: 981px;
+	float: left;
+	
+}
+.file-net{
+	height: 101px;
+	width: 982px;
+
+}
+.line1{
+	height: 65px;
+	width: 982px;
+	line-height: 90px;
+}
+
+.line1>h3{
+	margin: 0;
+	font-size: 25px;
+	font-family: arial;
+	width: 500px;
+	float: left;
+	height: 60px;
+}
+.file-net>span{
+	margin: 0;
+	height: 12px;
+	font-size: 12px;
+	float: left;
+	padding: 0;
+	width: 600px;
+	color: white;
+	position: relative;
+}
+#search{
+	height: 34px;
+	width: 262px;
+	border-radius: 10px;
+	float: right;
+	font-size: 15px;
+	padding-left: 10px;
+	background: rgb(11,11,11);
+	color: white;
+	border:1px solid black;
+	margin-top: 25px;
+}
+.navigation{
+	height: 61px;
+	width: 982px;
+	background: rgb(27,140,195);
+	border-radius: 7px;
+	overflow: hidden;
+	float: left;
+}
+.firstnav{
+	height: 59px;
+	width: 100px;
+	position: relative;
+	float: left;
+	border-right: 1px solid rgb(22,81,121);
+	border-left: 1px solid rgb(83,162,201);
+	line-height: 60px;
+	text-align: center;
+	margin-left: 1px;
+}
+.firstnav>a{
+	padding: 23px 10px;
+
+}
+.firstnav>a:link{
+	text-decoration: none;
+	color: white;
+}
+.firstnav:hover{
+	background: rgb(73,164,207);
+
+}
+.firstnav>a:visited{
+	color: white;
+}
+.photonav{
+	position: relative;
+	width: 982px;
+	height: 428px;
+	float: left;
+}
+.photomove{
+	position: relative;
+	height: 358px;
+	width: 982px;
+	background: white;
+	margin-top: 20px;
+	border-radius: 3px;
+	float: left;
+}
+.photomove>img{
+	width: 982px;
+	height: 358px;
+}
+.weapon{
+	height: 63px;
+	width: 982px;
+	line-height: 63px;
+	position: relative;
+	float: left;
+}
+.zhezhao2{
+	height: 63px;
+	width: 982px;
+	position: absolute;
+	background: black;
+	z-index: -1;
+	opacity: 0.5;
+	margin-top: 380;
+}
+#crysis{
+	margin-left: 200px;
+	height: 63px;
+	width: 311px;
+	font-size: 20px;
+}
+#x360{
+	font-size: 10px;
+}
+#watchbutton{
+	height: 33px;
+	width: 115px;
+	margin-left: 30px;
+	background: rgb(37,120,182);
+	border: none;
+	border-radius: 6px;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+.circlemove{
+	height: 70px;
+	width: 982px;
+	text-align: center;
+	padding-top: 15px;
+	float: left;
+}
+.circlemove>a>div:hover{
+	background: rgb(5,115,188);
+}
+.circle-control{
+	position: relative;
+	border-radius: 100%;
+	background: white;
+	border: none;
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+	display: inline-block;
+}
+.text1{
+	height: 225px;
+	width: 618px;
+	margin-left: 23px;
+	margin-top:31px;
+}
+.text1>h3{
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(55,55,55);
+	margin: 0;
+	font-size: 25px;
+	
+	width: 600px;
+	float: left;
+}
+p{
+	font-size: 12px;
+
+}
+
+.textlink>ul>li>a: {
+	
+	font-weight: Regular;
+	font-family: arial;
+}
+.textlink>ul>li>a:link,.separators>a:link,.bottom a:link{
+	color:white;
+	text-decoration: none;
+}
+.textlink>ul>li>a:hover,.separators>a:hover,.bottom a:hover{
+	text-decoration: underline;
+}
+.textlink>ul>li>a:visited,.separators>a:visited,.bottom a:visited{
+	color:white;
+	text-decoration: none;
+}
+.textlink>h3{
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(55,55,55);
+	margin: 0;
+	font-size: 25px;
+	
+	width: 300px;
+	float: left;
+}
+.text2{
+	height: 378px;
+	width: 618px;
+	margin-left: 23px;
+}
+.photo-roll{
+	height: 153px;
+	width: 619px;
+	margin-top: 35px;
+
+}
+.zhezhao3{
+	background: black;
+	z-index: -1;
+	opacity: 0.5;
+	height: 153px;
+	width: 619px;
+	margin-top: 22px;
+	position: absolute;
+}
+.featured-games{
+	font-size: 27px;
+	width: 619px;
+	height: 45px;
+	padding-top: 61px;
+}
+.textlink{
+	height: 225px;
+	width: 289px;
+	margin-left: 27px;
+	margin-top: 31px;
+
+}
+.text2>h3{
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(55,55,55);
+	margin: 0;
+	font-size: 25px;
+	
+	width: 600px;
+	float: left;
+}
+.contaction>h3{
+	margin-top: 60px;
+	border-bottom: 2px solid rgb(55,55,55);
+	margin: 0;
+	font-size: 25px;
+	
+	width:300px;
+	float: left;
+}
+ul{
+	margin-left: 15px;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 13px;
+	float: left;
+}
+.textlink>ul>li{
+	height: 25px;
+}
+.contaction{
+	height: 349px;
+	width: 289px;
+	margin-top: 13px;
+	margin-left: 30px;
+}
+.contaction p{
+	margin: 0;
+}
+.contaction>h3{
+	margin-bottom: 12px;
+}
+.contaction div{
+	height: 153px;
+	width: 286;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.contaction strong{
+	font-size: 15px;
+}
+.bottom>ul{
+	text-decoration: none;
+	
+
+}
+.bottom>ul>li{
+	display: inline-block;
+	border-right: 2px solid black;
+	padding-right: 6px;
+	padding-left: 6px;
+
+}
+.bottom>ul>div{
+	float: right;
+	font-size: 12px;
+	display: inline-block;
+}
+.photo-show{
+	margin-right: 25px;
+	width: 118px;
+	height: 153px;
+
+	float: left;
+	margin-top: 25;
+}
+.photo-show>div,#photo-show>div{
+	width: 118px;
+	height: 95px;
+
+
+}
+.photo-show>div>img,#photo-show>div>img{
+	width: 118px;
+	height: 95px;
+}
+#photo-show{
+	width: 118px;
+	height: 153px;
+	float: left;
+	margin-top: 25;
+}
+.left-button,.right-button{
+	width: 33px;
+	height: 153px;
+	float: left;
+}
+.left-button>img,.right-button>img{
+	margin-top: 60px;
+}
+.bottomzhezhao{
+	height:638px; 
+	width:982;
+	background: black;
+	z-index: -1;
+	opacity: 0.5;
+	
+	position: absolute;
+}
