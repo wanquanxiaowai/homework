@@ -5,7 +5,7 @@ body{
 	background: url("../photo/back.png");
 	color:white;
 	font-family: arial;
-	overflow: hidden;
+
 }
 .dazhezhao{
 	background: black;
@@ -25,7 +25,7 @@ body{
 .zhezhao1{
 	position: absolute;
 	height: 35px;
-	width: 1335px;
+	width: 1400px;
 	background: black;
 	z-index: -1;
 	opacity: 0.5;
