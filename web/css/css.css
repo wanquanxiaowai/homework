@@ -334,7 +334,7 @@ p{
 	width:300px;
 	float: left;
 }
-ul{
+.textlink>ul{
 	margin-left: 15px;
 	padding-left: 0;
 	margin-bottom: 0;
@@ -369,7 +369,7 @@ ul{
 }
 .bottom>ul{
 	text-decoration: none;
-	
+
 
 }
 .bottom>ul>li{
@@ -379,9 +379,9 @@ ul{
 	padding-left: 6px;
 
 }
-.bottom>ul>div{
+.bottom>div{
 	float: right;
-	font-size: 12px;
+	font-size: 13px;
 	display: inline-block;
 }
 .photo-show{
@@ -424,4 +424,12 @@ ul{
 	opacity: 0.5;
 	
 	position: absolute;
+}
+.bottom>ul{
+	
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 13px;
+	float: left;
 }
